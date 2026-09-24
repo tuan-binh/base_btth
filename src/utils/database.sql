@@ -51,7 +51,7 @@ BEGIN
 END;
 $$;
 
-CREATE OR REPLACE PROCEDURE proc_update_date(
+CREATE OR REPLACE PROCEDURE proc_update_data(
     IN p_id INT,
     IN p_name VARCHAR,
     IN p_price DECIMAL,
